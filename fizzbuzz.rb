@@ -1,12 +1,27 @@
 def fizzbuzz(num)
 
-if (fizzbuzz%3 == 0) {
+if (fizzbuzz%3 == 0 && fizzbuzz%5 == 0){
+  
+  return "FizzBuzz"
+  
+}
+
+elsif (fizzbuzz%3 == 0) {
   
   return "Fizz"
   
 } 
 
-else if (fizzbuzz%5)
+elsif (fizzbuzz%5 == 0) {
+  
+  return "Buzz"
+  
+}
+
+else {
+  return nil
+  
+}
 
 end
 
