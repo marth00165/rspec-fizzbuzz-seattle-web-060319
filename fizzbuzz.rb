@@ -1,5 +1,14 @@
-fizzbuzz()
+def fizzbuzz(num)
 
+if (fizzbuzz%3 == 0) {
+  
+  return "Fizz"
+  
+} 
+
+else if (fizzbuzz%5)
+
+end
 
 
 
